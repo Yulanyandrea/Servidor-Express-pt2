@@ -1,0 +1,27 @@
+{
+  "name": "servidor-express-pt2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon products.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yulanyandrea/Servidor-Express-pt2.git"
+  },
+  "author": "Yulany Munévar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yulanyandrea/Servidor-Express-pt2/issues"
+  },
+  "homepage": "https://github.com/Yulanyandrea/Servidor-Express-pt2#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
