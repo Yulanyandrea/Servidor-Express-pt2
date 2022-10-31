@@ -107,17 +107,22 @@ const products=[
   
   //Agregar productos metodo POST
   app.post("/api/products", (req, res) => {
-    const newProduct = req.body;
-    // if(newProduct.title === newProduct.title ){
-    //   return res.status(400).send("This title is already exist");
-    // }else if(newProduct.title=== undefined || newProduct.title===undefined){
-    //   return res.status(400).send("There is a missing file");
-    // }
-  
-    newProduct.id = Math.floor(Math.random() * 100);
-    products.push(newProduct)
-    res.json(newProduct);
-  })
+     const newProduct = req.body;
+
+     if(newProduct.title === undefined || newProduct.price === undefined ){
+         return res.status(400).send("There is a missing file");
+       }//else if(newProduct.title===newProduct.title){
+         // return res.status(400).send("This title is already exist");
+      //}
+      newProduct.id = Math.floor(Math.random() * 100);
+        products.push(newProduct)
+        res.json(newProduct);
+       return res.status(200).send("succesfull");
+
+      
+   })
+
+
   
   app.get("/info", (req, res) => {
     res.send(
