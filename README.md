@@ -31,7 +31,8 @@ Morgan se instala como todas las demás bibliotecas con el comando npm install m
 ### Cómo probar? 💻
 
 [//]: <> (Pasos necesarios para probar esta funcionalidad)
-Para correr el programa es necesario utilizar el comando: npm run dev .Asi mismo se debe utilizar una Api como postman para validar el respectivo CRUD 
+Para correr el programa es necesario utilizar el comando: npm run dev 
+Asi mismo se debe utilizar una Api como postman para validar el respectivo CRUD 
 
 ### Bibliografia 📖
 
